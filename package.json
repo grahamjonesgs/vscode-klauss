@@ -1,0 +1,46 @@
+{
+	"name": "klauss",
+	"displayName": "Klauss Assembly",
+	"description": "Klauss assembly syntax support for Visual Studio Code",
+	"version": "1.7.4",
+	"publisher": "dan-c-underwood",
+	"icon": "images/icon.png",
+	"author": {
+		"name": "Graham Jones"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"galleryBanner": {
+		"color": "#0084A9",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/grahamjonesgs/vscode-klauss.git"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "klauss",
+				"aliases": [
+					"Klauss"
+				],
+				"extensions": [
+					".kla"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "klauss",
+				"scopeName": "source.klauss",
+				"path": "./syntaxes/klauss.tmlanguage.json"
+			}
+		]
+	}
+}
