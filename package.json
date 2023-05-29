@@ -2,9 +2,8 @@
 	"name": "klauss",
 	"displayName": "Klauss Assembly",
 	"description": "Klauss assembly syntax support for Visual Studio Code",
-	"version": "1.7.4",
-	"publisher": "dan-c-underwood",
-	"icon": "images/icon.png",
+	"version": "0.0.1",
+	"publisher": "Graham Jones",
 	"author": {
 		"name": "Graham Jones"
 	},
