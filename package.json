@@ -3,7 +3,7 @@
 	"displayName": "Klauss Assembly",
 	"description": "Klauss assembly syntax support for Visual Studio Code",
 	"version": "0.0.1",
-	"publisher": "Graham Jones",
+	"publisher": "GrahamJones",
 	"author": {
 		"name": "Graham Jones"
 	},
